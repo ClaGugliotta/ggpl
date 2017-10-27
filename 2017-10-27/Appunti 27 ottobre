@@ -1,0 +1,28 @@
+DISTL([list, object])
+# distribuisce un oggetto all'interno di una lista 
+
+TRANS(list of list )
+# scambia le righe con le colonne fa la trasposta
+# su liste molto grandi si può ricorrere a numpy con la funzione 
+# in numpy trasformo la lista in un array poi faccio np.transposed(array)
+# dopo lo ritrasformo in lista  con .tolist()
+
+PROD()
+# funziona anche con gli array 
+# prod([[1,2,3],[4,5,6]]) = 1*4+2*5+3*6 = 32.0
+ SUM ()
+ # fa la somma
+
+ MATSUM(args)
+ # fa la somma di matrici 
+ MATPROD(args)
+ # fa il prodotto tra matrici 
+ N(numero ripetizione)(object)
+ #permette di ripetere un determinato numero di volte un oggetto 
+ AR(args)
+ #appende a destra
+ VECTPROD(args)
+ #moltiplica uno o due vettori R3 per restituirmi il prodotto un vettore #sempre in R3
+ randomPoints(m,sx,sy)
+ #m è il numero di punti random che voglio ottenere scalate #nell'intervallo sx e sy
+  
